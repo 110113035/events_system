@@ -1,0 +1,14 @@
+這是一個活動報名的網站
+資料庫結構如下
+
+  events_info       活動資訊
+    eiuid           不重複的識別碼
+    eititle         活動標題
+    eicontext       活動內容
+    eiother         其他（JSON）
+      eiobegin      開始時間
+      eioend        結束時間
+      eiolocation   活動地點
+      
+  events_people     報名資訊
+    
