@@ -1,4 +1,4 @@
-這是一個活動報名的網站
+這是一個活動報名的網站，使用CSS Framework (like bootstrap, foundation)
 ※資料庫結構如下
 
   events_info       活動資訊
