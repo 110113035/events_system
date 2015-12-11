@@ -1,5 +1,5 @@
 這是一個活動報名的網站
-資料庫結構如下
+※資料庫結構如下
 
   events_info       活動資訊
     eiuid           不重複的識別碼
@@ -11,4 +11,15 @@
       eiolocation   活動地點
       
   events_people     報名資訊
+    epuid           報名識別碼
+    epinfo          報名訊息
+    epip            報名者IP
+    eptime          報名資訊
+    
+    
+※網站架構
+    
+    /               顯示最新活動（單一筆）及報名人數（列表）
+    /people         顯示報名表格
+    /people_post    報名後的網站
     
